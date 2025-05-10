@@ -1,2 +1,2 @@
 # SecureSniff
-A Flutter-based Android app to audit WiFi password strength ethically, 
+A Flutter-based Android app to audit WiFi password strength 
