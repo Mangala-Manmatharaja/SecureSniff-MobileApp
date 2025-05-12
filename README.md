@@ -1,4 +1,4 @@
-📱 SecureSniff
+## 📱 SecureSniff
 
 A Flutter-based Android app to simulate WiFi password auditing, highlighting security vulnerabilities as part of WiFi security research at South Eastern University of Sri Lanka (SEUSL).
 ## 🔒 Concept
@@ -6,18 +6,18 @@ A Flutter-based Android app to simulate WiFi password auditing, highlighting sec
   SSID against a list of common passwords (e.g., “admin123”, “password123”). This project is part of my “SecureLink” research at SEUSL, which focuses on improving WiFi security 
   using blockchain-based logging solutions (e.g., Hyperledger Fabric).
   
-##🌐 Why This Matters
+## 🌐 Why This Matters
   Weak passwords are a major security gap in campus WiFi networks, making them vulnerable to unauthorized access. SecureSniff shows how easily such passwords can be “cracked” 
   (simulated), emphasizing the need for stronger passwords and secure logging mechanisms.
   
 
-##📝 Input SSID:
+## 📝 Input SSID:
    
    Enter a WiFi SSID (e.g., “admin123”, “SEUSL_Guest”) in the app’s input field.
    The SSID is the name of the WiFi network you’d like to “audit” (simulated).
 
 
-##🔧 Simulated Auditing:
+## 🔧 Simulated Auditing:
 
  -The app checks the SSID against a hardcoded wordlist: ["admin123", "password123", "testwifi", "12345678"].
  -A 2-second delay with a loading spinner mimics real auditing time.
@@ -25,7 +25,7 @@ A Flutter-based Android app to simulate WiFi password auditing, highlighting sec
  -If there’s no match (e.g., “SEUSL_Guest”), it shows “No passwords matched. (Simulated)”.
 
 
-##✨ Features:
+## ✨ Features:
 
    -Professional UI: Dark theme with neon green accents, Roboto font, and smooth animations.
    -Ethical Disclaimer: A popup on launch ensures the app is used responsibly.
@@ -33,12 +33,12 @@ A Flutter-based Android app to simulate WiFi password auditing, highlighting sec
    -Input Validation: Prevents empty SSID inputs with an error message.
 
 
-##🚀 Future Scope:
+## 🚀 Future Scope:
 
   -Add a Flask backend with pywifi for real WiFi auditing (requires a server setup).
   -Integrate Hyperledger Fabric for blockchain-based logging of audit attempts.
 
-##📋 Requirements
+## 📋 Requirements
 
   -Flutter 3.x
   -Android device/emulator
@@ -70,8 +70,8 @@ Input Data:
   -Click “Start Audit” to see the simulated result.
 
 
-##⚠️ Note
+## ⚠️ Note
   -This app is for educational use only. It simulates WiFi auditing without real network access. Use responsibly and only on networks you own or have permission to test.
 
-##👨‍💻 Author
+## 👨‍💻 Author
 -Mangala Manmatharaja
